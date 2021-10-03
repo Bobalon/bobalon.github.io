@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Josef Olsson</title>
+  <meta name="description" content="Josef Olsson: UX / Game Designer">
+  <meta name="author" content="Josef Olsson">
+
+  <link rel="stylesheet" href="CSS/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/gys0ypa.css">
+  <script src="https://kit.fontawesome.com/ce3cddd37f.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+    $(function(){
+      $('#nav').load('reuseheader.html');
+      $('#footer').load('reusefooter.html');
+    });
+
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
+    });    
+  </script>
+</head>
+<body>
+  <div id="nav"></div>
+  <div class="center">
+  <div class="sections-container-about">
+    <img id="bio-img" src="Images/portrait_Josef.jpg" alt="A photo of me!">
+    <div class="about-me-para"><br><strong>Hi!</strong><br><br>
+	
+	My name’s Josef. I’m a Game and UX Design student at Futuregames, looking for an internship for the spring term 2022.
+</div>
+<div class="about-me-para">Born and raised in and around Umeå. I grew up with a SNES, learned English from Lucasarts adventure games, and I’ve been playing indie games since the mid 90s. I have some background in visual arts and creative writing. I read a lot of books. I did improv theatre for a while and I miss it.
+<br><br>
+I think better when I draw and often draw to explain my ideas.
+<br><br>
+I can’t decide if I’d rather help expand the medium of games to its untapped potential or finally figure out how to remake Sumo Hoppers to make it more accessible without losing what makes it great.
+
+</div>
+<div class="about-me-para">I’m looking forward to making some games.
+</div>
+    <div class="about-me-para">Feel free to reach out using my email: <strong>Josef.Olsson@futuregames.nu</strong></div>
+    <div class="skills"><h2>COME TO ME FOR</h2>
+    <ul>
+      <li>Entertaining and consistent dialogue</li>
+      <li>Some pretty solid storyboard drawing</li>
+      <li>Hiberno-English with a Västerbotten accent</li>
+      <li>I also design games</li>
+    </ul>
+	<br><br><br>
+  </div>
+  </div>
+  </div><!-- You can find my CV <a href="CV/JosefOlssonCV.pdf" target="_blank">here</a>.  -->
+
+  <div id="footer"></div>
+</body>
+</html>

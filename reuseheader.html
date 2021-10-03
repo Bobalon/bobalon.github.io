@@ -1,0 +1,92 @@
+<nav>
+  <div class="menu">
+  	<div class="title"><a href="/">JOSEF OLSSON
+  		<div class="subtitle">GAME AND UX DESIGNER</div></a>
+  	</div>
+  	<input type="checkbox" id="check">
+  	<label for="check" class="checkbtn">
+  		<i class="fa fa-bars" aria-hidden="true" onclick></i>
+  	</label>
+  	<ul>
+      <li><a href="project_youherd.html" class="nav-link" id="portfolio"><span>YOU HERD ME</span></a></li>
+      <li><a href="project_puffer.html" class="nav-link" id="portfolio"><span>PUFFER SMASH</span></a></li>
+      <li><a href="project_vhs.html" class="nav-link" id="portfolio"><span>THE LOST VHS TAPE</span></a></li>
+      <li><a href="project_alltarach.html" class="nav-link" id="portfolio"><span>ALLTARACH</span></a></li>
+  		<li><a href="aboutme.html" class="nav-link"><span>ABOUT ME</span></a></li>
+  	</ul>
+  </div><!--
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mjvjygnj" method="post">
+  <button class="close-button" onclick="closeForm()"></button>
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Your Name</label>
+    <input type="text" name="name" id="full-name" placeholder="Your Full Name" required="">
+    <label for="email-address">Your Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="What you'd like to chat about." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>-->
+</nav>
+<script>
+  $(function(){
+      addNavStyling();
+    });
+
+  function addNavStyling() {
+    $('a').each(function(){
+      homeURL = "https://katiewrites.games/";
+      testURL = "http://192.168.1.228:8000/";
+      currentURL = document.URL.replace(/#.*$/, "");
+      console.log(currentURL);
+      console.log($(this).prop('href'));
+
+      if (document.URL == homeURL || document.URL == testURL || currentURL.includes("portfolio")) {
+        $("#portfolio").addClass('active'); 
+        $("#portfolio").parents('li').addClass('active');
+      }
+      if ($(this).prop('href') === window.location.href) {
+        $(this).addClass('active'); 
+        $(this).parents('li').addClass('active');
+      }
+    });
+  }
+
+  function displayForm() {
+    console.log("form is being displayed");
+    $("form").css("display", "block");
+    //document.getElementById("contact-link").classList.add("active");
+    $("#contact-link").parent().addClass("active");
+    $('body').css('overflow','hidden');
+
+    $('a').each(function(){
+      $(this).removeClass('active'); 
+      $(this).parents('li').removeClass('active');
+    });
+  }
+
+  const $menu = $('#fs-frm');
+
+  $(document).mouseup(e => {
+    console.log("mousing up");
+    if (!$menu.is(e.target) // if the target of the click isn't the container...
+    && $menu.has(e.target).length === 0) // ... nor a descendant of the container
+      {
+        closeForm();
+      }
+    });
+
+  $(".toggle").on("click", () => {
+    $menu.toggleClass("is-active");
+  });
+
+  function closeForm() {
+    console.log("closing form");
+    $menu.css("display", "none");
+    $("#contact-link").removeClass("active");
+    $("#contact-link").parent().removeClass("active");
+    addNavStyling();
+    $("body").css("overflow","auto");    
+  }
+</script>
