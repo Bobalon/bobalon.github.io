@@ -297,6 +297,7 @@ ul {
 #about {
 	background-color: #203662; /*#36393F; /*#5987AB; /**#B4D4E1;**/
 	/**color: #555555;**/
+	/* backdrop for the about button - header */
 }
 
 /*======================================================*/
@@ -394,7 +395,7 @@ hr {
 }
 
 #email-link {
-  color: #F4F4F2; /*#1c1c1c; /*inherit; */
+  color: #DEDED8; /*#F4F4F2; /*#1c1c1c; /*inherit; */
   /* email link in the footer colour*/
 }
 
