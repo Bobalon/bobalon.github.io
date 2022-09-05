@@ -300,7 +300,7 @@ ul {
 	/* backdrop for the about button - header */
 }
 mark {
-	/*background-color: #203662;*/
+	background-color: none;
 	font-weight: 900;
 }
 
