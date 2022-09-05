@@ -301,6 +301,7 @@ ul {
 }
 mark {
 	background-color: none;
+	color: inherit;
 	font-weight: 900;
 }
 
