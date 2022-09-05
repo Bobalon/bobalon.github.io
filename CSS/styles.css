@@ -546,8 +546,8 @@ form {
 }
 
 .close-button:hover {
-  border: 2px solid #005f88;
-  background-color: #005f88;
+  border: 2px solid #000000; /*#005f88; */
+  background-color: #000000; /*#005f88; */
   color: #ffffff;
   cursor: pointer;
 }
