@@ -35,7 +35,7 @@ nav {
 	position: fixed;
 	top: 0;
 	font-family: "Lato", sans-serif;
-	background: #232529; /*#151617; /*#82BFD8; */
+	background: #151617; /*#232529; /*#82BFD8; */
 	width: 100%;
 	padding: 10px 0;
 	transition: top 0.5s;
@@ -110,11 +110,11 @@ ul {
 .menu ul li.active>a {
 	color: #FFFFFF;
 	/*background: #000000;*/
-  background: #000000; /*#FF1C11; /*#005f88; */
+  background: #FF1C11; /*#000000; /*#FF1C11; /*#005f88; */
 }	
 
 .menu ul li span:hover {
-	border-bottom: 5px solid #F4F4F2; /*#42464D; /*#005f88; */
+	border-bottom: 3px solid #F4F4F2; /*#42464D; /*#005f88; */
 }
 
 .standard-link {
@@ -693,7 +693,7 @@ form {
 li.active>#contact-link {
   color: #FFFFFF;
   /*background: #000000;*/
-  background: #136CFF; /*#005f88; */
+  background: #ffffff; /*#136CFF; /*#005f88; */
 }
 
 .form-intro {
