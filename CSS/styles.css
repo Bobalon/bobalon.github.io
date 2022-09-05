@@ -35,7 +35,7 @@ nav {
 	position: fixed;
 	top: 0;
 	font-family: "Lato", sans-serif;
-	background: #151617; /*#232529; /*#82BFD8; */
+	background: #151617; /*#232529; /*#82BFD8; */ /* backdrop for the header section*/
 	width: 100%;
 	padding: 10px 0;
 	transition: top 0.5s;
@@ -108,13 +108,15 @@ ul {
 }
 
 .menu ul li.active>a {
-	color: #FFFFFF;
+	color: #000000;
 	/*background: #000000;*/
-  background: #4F627B; /*#000000; /*#FF1C11; /*#005f88; */
+  background: #F4F4F2; /*#4F627B; /*#000000; /*#FF1C11; /*#005f88; */
+  /* backdrop for selected header options */
 }	
 
 .menu ul li span:hover {
 	border-bottom: 3px solid #F4F4F2; /*#42464D; /*#005f88; */
+	/* line under header options, thickness and colour*/
 }
 
 .standard-link {
@@ -393,6 +395,7 @@ hr {
 
 #email-link {
   color: #F4F4F2; /*#1c1c1c; /*inherit; */
+  /* email link in the footer colour*/
 }
 
 a {
@@ -412,6 +415,7 @@ a {
 .sections-container-about {
   background: #36393F; /*#B4D4E1; */
   color: #F4F4F2; /*#ffffff; */
+  /* this is the backdrop and font colour of the about me section */
 }
 
 .intro {
