@@ -299,6 +299,9 @@ ul {
 	/**color: #555555;**/
 	/* backdrop for the about button - header */
 }
+mark {
+	background-color: #203662;
+}
 
 /*======================================================*/
 
