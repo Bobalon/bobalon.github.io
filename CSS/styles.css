@@ -406,8 +406,17 @@ hr {
 
 a {
 	text-decoration: none;
-	color: #0085FF;
+	/*color: #0085FF;*/
 	font-weight: bold;
+}
+a:link {
+	color: #05C7FF;
+}
+a:visited {
+	color: #05C7FF;/*#709EDC #FFFC01;*/
+}
+a:hover {
+	color: #F5FDFF;
 }
 
 .sections-container {
