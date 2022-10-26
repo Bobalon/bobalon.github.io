@@ -423,8 +423,9 @@ a:hover {
   	text-align: center;	
 }
 #footer-link {
+  font-size: 20px;
 	font-weight: bold;
-	color: #D5D5D3; /*#F4F4F2*/
+	color: #C2C2BE; /*#F4F4F2 #D5D5D3*/
 }
 #footer-link:hover {
 	color: #FFFFFF;
