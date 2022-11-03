@@ -20,49 +20,480 @@
   		$('#footer').load('reusefooter.html');
   	});
   </script>
+    <script>
+	function showLightbox() {
+    	document.body.style.overflow = "hidden";
+    }
+
+    function removeLightbox() {
+    	document.body.style.overflow = "auto";
+    }
+</script>
 </head>
-<body>
-  <div id="nav"></div>
   <div class="center">
-    <div class="portfolio-gallery">
-      <div class="img-overlay"><a href="project_fps.html">
+      <div class="img-overlay"><a href="index.html#fps">
         <img src="Images/fps_button.png" alt="Untitled FPS" class="portfolio-img"/></a>
-      </div><!--
-      <div class="portfolio-row">
-        <div class="portfolio-column" id="portfolio-left-img">
-          <div class="img-overlay"><a href="project_cave.html">
-            <img src="Images/wip_button.png" alt="Cave Critters" class="portfolio-img"/></a>
-          </div>
-        </div>
-        <div class="portfolio-column" id="portfolio-right-img">
-          <div class="img-overlay"><a href="project_vhs.html">
-            <img src="Images/vhs_button.png" alt="The Lost VHS Tape" class="portfolio-img"/></a>
-          </div>
-        </div>
-      </div>--><!--
+      </div>
 	  <div class="portfolio-row">
         <div class="portfolio-column" id="portfolio-left-img">
-	    <div class="img-overlay"><a href="project_alltarach.html">
-        <img src="Images/alltarach_button.png" alt="Alltarach" class="portfolio-img"/></a>
-          </div>
-        </div>
-        <div class="portfolio-column" id="portfolio-right-img">
-        <div class="img-overlay"><a href="project_youherd.html">
-        <img src="Images/youherd_button.png" alt="You Herd Me" class="portfolio-img"/></a>
-      </div>-->
-	  <div class="portfolio-row">
-        <div class="portfolio-column" id="portfolio-left-img">
-        <div class="img-overlay"><a href="project_youherd.html">
+        <div class="img-overlay"><a href="index.html#youherdme">
         <img src="Images/youherd_button.png" alt="You Herd Me" class="portfolio-img"/></a>
       </div>
       </div>
 	  <div class="portfolio-column" id="portfolio-right-img">
-	    <div class="img-overlay"><a href="project_alltarach.html">
+	    <div class="img-overlay"><a href="index.html#alltarach">
         <img src="Images/alltarach_button.png" alt="Alltarach" class="portfolio-img"/></a>
         </div>
         </div>
   </div> <!-- best enjoyed on desktop resolutions -->
+  <br><br><br><br><br><br><br>
   </div>
-  <div id="footer"></div>
+  <!------------------------------------------------------------------------------------>
+</body><body>
+  <div id="nav"></div>
+  <div class="center">
+    <div class="sections-container-alltarach">
+    <div class="section" id="fps">
+      <div class="portfolio-background-container"><img class="portfolio-background" src="Images/fps_header.png" alt="FPS"/></div>
+      <header class="section-header">An unannounced FPS Title</header>
+      <div class="section-text">
+        <ul class="portfolio-list">
+          <div class="portfolio-list-left"><li><strong>Genre:</strong> FPS with stealth elements</li>
+          <li><strong>Team size:</strong> 4 (during my internship)</li></div>
+        </ul>
+<!-- -->
+
+<p class="clear-paragraph">
+		<div class="responsibilities-section">
+      <h2>MY ROLE</h2>
+      <ul>
+		<li>Designing <strong>UI</strong></li>
+		<li>Creating <strong>UI elements</strong></li>
+		<li>Building UI in <strong>Unity</strong></li>
+		<li>Testing the <strong>Demo Level</strong></li>
+		<li>Giving and receiving <strong>Feedback</strong> over Discord</li>
+      </ul>
+	  </div>
+<!-- -->
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/FLDdiqZERbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		</p><br>
+<!--  -->
+		<p class="clear-paragraph">
+		I spent my last term as an Intern at <strong>Red Marmoset Studios Limited</strong>. I worked on their upcoming FPS (title pending), primarily designing the menus and HUD. It's in an early stage of development.
+<br><br>
+		When not building directly in Unity, I worked primarily in <strong>Figma</strong>.
+<br><br>
+	  Beyond clarity and ease of navigation, the goal was to evoke Art Deco and prestige gangster cinema. The tilted square shape became a recurring visual motif in the design.
+	  <br><br>
+	  Below, example menu animation from the main menu. Logo removed. I made the buttons, the animation, and the overall design, but the skyline and the red-eyed men are placeholders from older concept art. Chose the fonts, but didn't personally design them.
+</p>
+<!-- images -->
+<div class="img-container">
+  <img src="Images/fps00b.gif" alt="fps: screenshot" id="wide-pic"></a>
+</div>
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  The HUD is a mixture of Overwatch and Dishonored, with a different visual flair. White silhouettes clarify which weapon is currently equipped. The timer at the top appears when time is starting to run out. 
+	  <br><br>
+	  Figma mockup on the left, Unity on the right.
+	  <br><br>
+      </p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img3" onclick="showLightbox()">
+  <img src="Images/fps01a.png" alt="fps: HUD mockup" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img3" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps01a.png')"></span>
+		</a>
+  <a href="#img5" onclick="showLightbox()">
+  <img src="Images/fps01b.png" alt="fps: early HUD screenshot" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img5" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps01b.png')"></span>
+		</a>
+</div>
+
+<!--  -->
+		<p class="clear-paragraph">
+		Main menu sketches from Figma. The suit is an edited photo from google image search. The placeholder character is a quick sketch I made of Clint Eastwood, intended to be 3D player characters in the final version.
+	  <br><br>
+</p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img71" onclick="showLightbox()">
+  <img src="Images/fps05.png" alt="fps: main menu concept sketches" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img71" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps05.png')"></span>
+		</a>
+  <!--<a href="#img72" onclick="showLightbox()">
+  <img src="Images/fps_notes.png" alt="fps: screenshot" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img72" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps_notes.png')"></span>
+		</a>-->
+</div>
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  The Pause Menu is designed to look like a filing system. Some files have subcategories of their own.
+	  <br><br>
+	  The Options menu is divided into Audio (volume), Graphics (resolution/quality), Controls (button mapping etc.), and Interface (HUD/Accessibility). I've experimented with time appropriate icons, for clarity.
+	  <br><br>
+	  Older iterations to the left, early Unity version to the right.
+	  <br><br>
+      </p>
+	  
+<!-- images -->
+<div class="img-container">
+  <a href="#img8" onclick="showLightbox()">
+  <img src="Images/fps03.png" alt="fps: pause concepts" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img8" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps03.png')"></span>
+		</a>
+  <a href="#img9" onclick="showLightbox()">
+  <img src="Images/fps04.png" alt="fps: screenshot" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img9" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps04.png')"></span>
+		</a>
+</div>
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  Figma mockups for a crafting menu for mutagens. The mutagen system is, at time of writing, not set in stone, so there are a few variations on that menu. The basic idea is that you dilute the mutagen with water from the sink. The instructions are currently for a Playstation controller.
+	  <br><br>
+      </p>
+	  
+<!-- images -->
+<div class="img-container">
+  <!--<a href="#img61" onclick="showLightbox()">
+  <img src="Images/fps02.png" alt="fps: screenshot" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img61" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps02.png')"></span>
+		</a></div>
+		<div class="img-container">-->
+  <a href="#img62" onclick="showLightbox()">
+  <img src="Images/fps08a.png" alt="fps: screenshot" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img62" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps08a.png')"></span>
+		</a>
+  <a href="#img63" onclick="showLightbox()">
+  <img src="Images/fps08b.png" alt="fps: screenshot" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img63" onclick="removeLightbox()">
+		<span style="background-image: url('Images/fps08b.png')"></span>
+		</a>
+</div>
+<!--  -->
+      </div>
+    </div><br><br><br><br>
+<!-- ------------------------------------------------------------------------------------  -->
+
+    <div class="section" id="youherdme">
+      <div class="portfolio-background-container"><img class="portfolio-background" src="Images/youherd_header.png" alt="YOU HERD ME"/></div>
+      <header class="section-header">YOU HERD ME</header>
+      <div class="section-text">
+        <ul class="portfolio-list">
+          <div class="portfolio-list-left"><li><strong>Genre:</strong> Co-op Puzzle Platformer</li>
+          <li><strong>Team size:</strong> 6</li></div>
+        </ul>
+<!-- -->
+
+<p class="clear-paragraph">
+		<div class="responsibilities-section">
+      <h2>MY ROLE</h2>
+      <ul>
+        <li>Responsible for <strong>Menu Design</strong></li>
+		<li>Responsible for <strong>UI Design</strong></li>
+        <li>Responsible for <strong>Game Over and Victory Screens</strong></li>
+		<li>Responsible for <strong>Logo and Poster Design</strong></li>
+		<li>Collaborating with the whole team on <strong>Mechanics Design</strong></li>
+		<li>Collaborating with the other Designer on <strong>Character Design</strong></li>
+      </ul></div>
+<!-- -->
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/z2XbpAo627I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		</p><br>
+		<p class="clear-paragraph">
+		<strong>“You Herd Me”</strong> is a top-down sheep herding game. Your goal is to guide as many sheep as possible to the end of the level, while activating bridges and preventing wolves from eating them. <!--The two players control distinct characters - the shepherd and his dog. The dog is faster and can bark to repel sheep from a greater distance. The shepherd can repel wolves with a torch and beckon sheep towards him with a bell - but never both at the same time. There’s some light platforming involved.-->
+		Two players cooperate and control distinct characters.
+		<br><br>
+		A four week long Futuregames project. My team had two Project Managers, two Programmers, and two Designers - one of which was me. The game was required to be 3D, to be local co-op, and to have puzzles.
+<br><br>I drew a brief explanation of the controls and gameplay loop:
+<br><br>
+</p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img1" onclick="showLightbox()">
+  <img src="Images/youherd_controls.png" alt="you herd me: controls" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img1" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_controls.png')"></span>
+		</a>
+  <a href="#img2" onclick="showLightbox()">
+  <img src="Images/youherd_play.png" alt="you herd me: gameplay instruction" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img2" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_play.png')"></span>
+		</a>
+</div>
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  We landed on sheep herding early and by day two I was already producing concept art. Most of the early design was collaborative, involving the entire team.<br><br>
+   <!--Both me and the other designer were comfortable with 3D, so we went in with the assumption that we’d make assets of our own. To make this easier, the early concept sketches were drawn with basic shapes in mind.-->
+   I produced 13 rough poster sketches, followed by an A2 version of the winning concept.
+<br><br>
+      </p>
+	  
+<!-- images -->
+<div class="img-container">
+  <a href="#img4" onclick="showLightbox()">
+  <img src="Images/youherd_poster1.png" alt="you herd me: poster" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img4" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_poster1.png')"></span>
+		</a>
+  <a href="#img5" onclick="showLightbox()">
+  <img src="Images/youherd_poster2.png" alt="you herd me: poster" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img5" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_poster2.png')"></span>
+		</a>
+  <a href="#img6" onclick="showLightbox()">
+  <img src="Images/youherd_poster3.png" alt="you herd me: poster" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img6" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_poster3.png')"></span>
+		</a>
+</div>
+
+<!--  -->
+	  
+	  <p class="clear-paragraph">
+Since it was finished and sent for printing in the first week, there are at least two things in the poster that don’t match the final game. First, there were subtle changes to the shepherd’s design. More importantly, the sheep are seen running off the edge of the map - something that was still present in the early design. This was abandoned as we started prototyping and testing, since it proved difficult to allow the sheep to run off the level without making the game feel unfair and not fun to play.
+<br><br>
+After the first week, there was a clearer division of labour. I designed most of the menu and UI assets, including game over and victory screens. The other designer did most of the level design. We collaborated on character assets, with him making meshes and me texturing.
+<br><br><!--
+     </p>
+	 
+<!-- images 
+<div class="img-container">
+  <a href="#img7" onclick="showLightbox()">
+  <img src="Images/youherd_sheptex.png" alt="you herd me: shepherd texture" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img7" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_sheptex.png')"></span>
+		</a>
+  <a href="#img8" onclick="showLightbox()">
+  <img src="Images/youherd_dogtex.png" alt="you herd me: dog texture" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img8" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_dogtex.png')"></span>
+		</a>
+</div>
+<!--  
+
+	  <p class="clear-paragraph">-->
+I reused one of my old poster concepts for the pause menu - adding some buttons on the body of the sheep.
+<br><br>
+      </p>
+
+<!-- images -->
+<div class="img-container">
+  <a href="#img9" onclick="showLightbox()">
+  <img src="Images/youherd_pause.gif" alt="you herd me: pause menu" id="big-pic"></a>
+		<a href="#back" class="lightbox" id="img9" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_pause.gif')"></span>
+		</a>
+
+</div>
+<!--  -->
+<!-- -->
+
+<!--  -->
+
+	  <p class="clear-paragraph">
+I made a few simple UI elements for keeping track of health and sheep early in the process. Also a custom font for the numbers, to make implementation easier.
+<br><br>
+<em>My biggest regret</em> with this project is the bar that shows how many sheep you need in order to finish the level. It was a placeholder design we never had time to replace, and in hindsight I don’t think we even needed a permanent UI element for it. We could’ve just made the sheep cloud <em>move and make a noise</em> when you had enough sheep saved.
+<br><br><!--
+      </p>
+<!-- images --><!-- 
+<div class="img-container">
+  <img src="Images/youherd_health.png" alt="you herd me: sheep counters" id="med-pic">
+</div>
+ --><!-- 
+
+	  <p class="clear-paragraph">-->
+At the end of the level you’re awarded between 1-3 apples depending on the number of sheep you’ve successfully herded. The animation for apples popping in is 3 frames per apple - no apple, big apple, smaller final apple.
+<br><br>
+      </p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img12" onclick="showLightbox()">
+  <img src="Images/youherd_levelcomplete.gif" alt="you herd me: level complete" id="big-pic"></a>
+		<a href="#back" class="lightbox" id="img12" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_levelcomplete.gif')"></span>
+		</a>
+</div>
+<!--  
+
+	  <p class="clear-paragraph">
+We had a running joke from some of the early untextured sheep meshes that there should be rare purple sheep in the game. I don’t remember if we actually implemented the one in a thousand chance of spawning a purple sheep. Regardless, there is a texture for it.
+<br><br>
+      </p>
+<!-- images
+<div class="img-container">
+  <img src="Images/youherd_sheep.png" alt="you herd me: sheep" id="wide-pic">
+</div>
+<!--  -->
+<!--  -->
+
+	  <p class="clear-paragraph">
+The original main menu concept was 2D, meant to evoke the poster. We later decided to make it 3D, to show off the assets we’d worked on, since you couldn’t see them very well from the top-down perspective of gameplay. <!--Making it 3D allowed us to have character assets walking across the screen and do dynamic transitions.-->
+<br><br>
+I created the buttons and sketched out the general design.
+
+<br><br>
+      </p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img14" onclick="showLightbox()">
+  <img src="Images/youherd_main1.gif" alt="you herd me: original main menu" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img14" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_main1.gif')"></span>
+		</a>
+  <a href="#img15" onclick="showLightbox()">
+  <img src="Images/youherd_main2.png" alt="you herd me: main menu 3D concept sketch" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img15" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_main2.png')"></span>
+		</a>
+</div>
+<!--  -->
+      </div>
+    </div><br><br><br><br>
+
+<!-- ------------------------------------------------------------------------------------  -->
+
+    <div class="section" id="alltarach">
+      <div class="portfolio-background-container"><img class="portfolio-background" src="Images/alltarach_header.png" alt="ALLTARACH"/></div>
+      <header class="section-header">ALLTARACH</header>
+      <div class="section-text">
+        <ul class="portfolio-list">
+          <div class="portfolio-list-left"><li><strong>Genre:</strong> Illustrated Branching Narrative Twine Game</li>
+          <li><strong>Team size:</strong> 2</li></div>
+        </ul>
+<!-- -->
+
+<p class="clear-paragraph">
+		<div class="responsibilities-section">
+      <h2>MY ROLE</h2>
+      <ul>
+		<li>Responsible for <strong>Visual Presentation</strong></li>
+        <li>Responsible for <strong>Art</strong>, including <strong>UI</strong></li>
+        <li>Creating <strong>Concept Art</strong> and <strong>Mockups</strong></li>
+		<li>Collaborating on <strong>UX</strong></li>
+      </ul>
+	  </div>
+<!-- -->
+		</p>
+<!-- images -->
+<div class="img-container">
+  <img src="Images/alltarach_cover.png" alt="alltarach: cover image" id="high-pic">
+</div>
+<!--  -->
+		<p class="clear-paragraph">
+		<strong>“Alltarach”</strong> is a branching illustrated novel set in a semi-fantastical version of 6th century Ireland - a generation after the passing of the Apostle Patrick. You follow the perspective of <strong>Bríd</strong>, a teenage orphan from a rocky island off the west coast. Her brother didn’t wake her this morning.
+<br><br>
+		<strong>A personal project where I teamed up with a writer.</strong> I developed the visual style and created all of the art assets, while the writer wrote the text and the code. We collaborated on things that weren’t strictly in those categories. Among other things, you can <strong>hover over underlined text</strong> to get words or names explained.
+		<!--<br><br>
+<br><br>
+</p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img2" onclick="showLightbox()">
+  <img src="Images/alltarach_screen0.png" alt="alltarach: screenshot" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img2" onclick="removeLightbox()">
+		<span style="background-image: url('Images/alltarach_screen0.png')"></span>
+		</a>
+  <a href="#img3" onclick="showLightbox()">
+  <img src="Images/alltarach_screen1.png" alt="alltarach: screenshot" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img3" onclick="removeLightbox()">
+		<span style="background-image: url('Images/alltarach_screen1.png')"></span>
+		</a>
+</div>
+<!--
+ -->
+ <p class="clear-paragraph">
+	  For the character illustrations, I opted for rough lineart and a limited palette. It's meant to evoke a kind of storybook vibe, as well as the wind, rocks, and water of the Irish west coast.
+	  <br><br>
+      </p>
+<div class="img-container">
+  <a href="#img5" onclick="showLightbox()">
+  <img src="Images/alltarach_cousins.jpg" alt="alltarach: the cousins Feilim and Fechín" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img5" onclick="removeLightbox()">
+		<span style="background-image: url('Images/alltarach_cousins.jpg')"></span>
+		</a>
+</div>
+ 
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  I based the letters of the logo on the earliest forms of insular script I could find, with the same word in Ogham underneath. More challenging was figuring out what to put inside the initial letter. The original placeholder is a rough sketch of an abstract púca drawing I’d seen on a book cover once.
+<br><br>
+The final version is a creature I imagine to be somewhere between a badger and a horse, surrounded by dots and lines. The logo is primarily created in Illustrator, except for the initial letter sketches and the final colouring.
+<br><br>
+      </p>
+	  
+<!-- images -->
+<div class="img-container">
+  <a href="#img1" onclick="showLightbox()">
+  <img src="Images/alltarach_logo.png" alt="alltarach: logo" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img1" onclick="removeLightbox()">
+		<span style="background-image: url('Images/alltarach_logo.png')"></span>
+		</a>
+</div>
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  I also designed icons for Inventory and Settings. I wanted something that fit the style and time period of the game, while still clearly communicating what they are.
+	  <br><br>
+	  The bag was simple enough, "Settings" was more complicated. The universal icon for settings is a cog - but cogs are too modern. I thought of water wheels - similar, but older. I painted them both in greyscale, so they'd be different from the chapter illustrations without standing out too much. Handwrote descriptive text in insular script. The text lights up in red when you hover, consistent with the main menu.
+<br><br>
+      </p>
+	  
+<!-- images -->
+<div class="img-container">
+  <img src="Images/alltarach_icons.png" alt="alltarach: icons" id="wide-pic">
+</div>
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  The back and home/menu buttons are in a similar style, using the main character's house as the basis for the "home" icon.
+	  <br><br>
+		You can explore a Figma mockup of the menu system <a href="https://www.figma.com/proto/r0Zv9oN9lsOxhs62f3smlF/Alltarach?node-id=54%3A93&scaling=scale-down&page-id=0%3A1&starting-point-node-id=54%3A93&show-proto-sidebar=1">here</a>.
+<br><br>
+      </p>
+<!-- images
+<div class="img-container">
+  <img src="Images/alltarach_icons2.png" alt="alltarach: icons2" id="wide-pic">
+</div>
+<!--  -->
+      </div>
+    </div><br><br>
+
+<!-- ------------------------------------------------------------------------------------  -->
+</div></div></div><br><br>
+  <div class="center">
+  <div class="sections-container-about">
+    <img id="bio-img" src="Images/portrait_Josef.png" alt="A photo of me">
+    <div class="about-me-para"><br><strong>Hi!</strong><br><br>
+	
+	My name’s Josef. I’m a Game and UX Design student at Futuregames, currently based in Malmö. I'm particularly interested in UI.
+</div>
+<div class="about-me-para">Born and raised in and around Umeå. I grew up with a SNES, learned English from Lucasarts adventure games, and I’ve been playing indie games since the mid 90s. I have some background in visual arts and creative writing. I read a lot of books.
+<br><br>
+I think better when I draw and often draw to explain my ideas. Also a big fan of Figma.
+<br><br>
+I can’t decide if I’d rather help expand the medium of games to its untapped potential or finally figure out how to remake Sumo Hoppers to make it more accessible without losing what makes it great.
+
+</div>
+<div class="about-me-para">I’m looking forward to making some games.
+</div>
+    <div class="about-me-para">You can find my CV <a href="pdf/CVJosefOlsson.pdf">here</a>. I'm also on <a href="www.linkedin.com/in/josef-olsson-design">LinkedIn</a> and <a href="https://twitter.com/josefolsson">Twitter</a>, and feel free to reach out using my email: <a href ="mailto: Josef.Olsson@futuregames.nu" id="email-link">Josef.Olsson@futuregames.nu</a><br><br></div>
+
+  </div><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!--<div id="footer"></div>-->
 </body>
 </html>
