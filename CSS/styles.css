@@ -479,6 +479,12 @@ a:hover {
   color: #F4F4F2; /*#ffffff; */
   /* this is the backdrop and font colour of the about me section */
 }
+.sections-container-top {
+  /*background: #36393F; /*#B4D4E1; */
+  font-size: 120%;
+  color: #F4F4F2; /*#ffffff; */
+  /* this is the backdrop and font colour of the about me section */
+}
 
 .intro {
   width: 90%;
@@ -581,6 +587,15 @@ a:hover {
   max-width: 300px;
   height: auto;
   max-height: 300px;
+  overflow: hidden;
+  margin: 5px 10px;
+}
+#top-img {
+  float: left;
+  width: auto;
+  max-width: 400px;
+  height: auto;
+  max-height: 400px;
   overflow: hidden;
   margin: 5px 10px;
 }
