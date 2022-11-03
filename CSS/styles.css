@@ -107,12 +107,12 @@ ul {
 	padding: 6px 12px;
 }
 
-.menu ul li.active>a {
-	color: #000000;
+/*.menu ul li.active>a {*/
+	/*color: #000000;
 	/*background: #000000;*/
-  background: #F4F4F2; /*#4F627B; /*#000000; /*#FF1C11; /*#005f88; */
+  /*background: #F4F4F2; /*#4F627B; /*#000000; /*#FF1C11; /*#005f88; */
   /* backdrop for selected header options */
-}	
+/*}	*/
 
 .menu ul li span:hover {
 	border-bottom: 3px solid #F4F4F2; /*#42464D; /*#005f88; */
