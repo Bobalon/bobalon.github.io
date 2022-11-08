@@ -941,6 +941,30 @@ iframe {
   .center {
   	width: 100%;
   }
+ #wide-pic {
+	 max-width: 400px;
+	 max-height: 300px;
+	 padding: 20px 0px;
+ }
+ #big-pic {
+  max-width: 400px;
+  max-height: 300px;
+  padding: 20px 0px;
+ }
+ #high-pic {
+  max-width: 400px;
+  max-height: 600px;
+  padding: 20px 0px;
+}
+#top-img {
+  float: left;
+  width: auto;
+  max-width: 200px;
+  height: auto;
+  max-height: 200px;
+  overflow: hidden;
+  margin: 5px 10px;
+}
   .checkbtn {
   	/*position: absolute;
   	right: 0;*/
