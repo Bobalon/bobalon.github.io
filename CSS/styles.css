@@ -943,12 +943,12 @@ iframe {
   }
  #wide-pic {
 	 max-width: 300px;
-	 max-height: 300px;
+	 max-height: 350px;
 	 padding: 20px 0px;
  }
  #big-pic {
   max-width: 300px;
-  max-height: 300px;
+  max-height: 350px;
   padding: 20px 0px;
  }
  #high-pic {
@@ -958,7 +958,7 @@ iframe {
 }
 #click-pic {
   max-width: 300px;
-  max-height: 300px;
+  max-height: 350px;
   padding: 20px 0px;
 }
 #top-img {
@@ -1040,7 +1040,13 @@ iframe {
     width: 100%;
   }
   #bio-img {
-    margin-right: 20px;
+  float: right;
+  width: auto;
+  max-width: 200px;
+  height: auto;
+  max-height: 300px;
+  overflow: hidden;
+  margin: 5px 5px;
   }
   .portfolio-list {
     margin: 10px 0px;
