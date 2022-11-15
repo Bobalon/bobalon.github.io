@@ -187,7 +187,7 @@ ul {
 
 .img-overlay {
 	position: relative;
-	background-color: black;
+	/*background-color: black;*/
 }
 
 .portfolio-img:hover {
@@ -202,11 +202,11 @@ ul {
     right: 0;
     bottom: 0;
     color: #fff;
-    font-size: 2vw;
+    font-size: 1vw;
     font-family: "Lato", Georgia, sans-serif;
-    font-weight: 600;
+    font-weight: 300;
     text-align: center;
-   	top: 80%;
+   	top: 94%;
    	z-index: 1;
 }
 
@@ -926,6 +926,33 @@ iframe {
     color: black;
   }
 }
+/*-----------------------------BUTTON---------------------------------*/
+.buttonb {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 18px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 6px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+.buttonb {
+  background-color: #232529;
+  color: white;
+  border: 2px solid #F4F4F2;
+}
+
+.buttonb:hover {
+  background-color: #F4F4F2;
+  color: black;
+  border: 2px solid #232529;
+}
+
+/*--------------------------------------------------------------*/
 
 @media all and (max-width: 1000px) {
   .title {
