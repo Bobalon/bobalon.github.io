@@ -36,7 +36,7 @@ nav {
 	position: fixed;
 	top: 0;
 	font-family: "Lato", sans-serif;
-	background: rgba(35, 37, 41, 0.8); /*#232529; /*#151617; /*#232529; /*#82BFD8; */ /* backdrop for the header section*/
+	background: rgba(35, 37, 41, 0.9); /*#232529; /*#151617; /*#232529; /*#82BFD8; */ /* backdrop for the header section*/
 	width: 100%;
 	padding: 10px 0;
 	transition: top 0.5s;
