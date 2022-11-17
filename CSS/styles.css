@@ -243,6 +243,13 @@ ul {
   float: right;
 }
 
+.portfolio-list-top {
+	text-align: center;
+  /*float: center;
+  max-width: 650px;
+  margin: auto;*/
+}
+
 .clear-paragraph {
   max-width: 1000px;
   margin: auto;
@@ -809,7 +816,7 @@ iframe {
 }
 
 .responsibilities-section {
-	max-width: 800px;
+	max-width: 550px;
 	margin: auto;
   padding: 10px;
 }
