@@ -576,9 +576,9 @@ a:hover {
 }
 
 .portfolio-background-container {
-  overflow: hidden;
+  /*overflow: hidden;
+  max-height: 300px;*/
   width: 100%;
-  max-height: 300px;
 }
 
 .portfolio-background {
