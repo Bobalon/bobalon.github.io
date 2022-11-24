@@ -356,7 +356,7 @@ img {
   /* Size and position background image */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: contain;
   object-fit: scale-down;
 }
 
@@ -818,9 +818,13 @@ iframe {
 }
 
 .responsibilities-section {
+  border: 1px dashed #F4F4F2;
+	/*background: #232529;*/
 	max-width: 550px;
 	margin: auto;
-  padding: 10px;
+  padding: 40px;
+  padding-top: 22px;
+  padding-bottom: 30px;
 }
 
 .writing-sample {
@@ -1155,6 +1159,9 @@ iframe {
     display: block;
     text-align: center;
   }
+  
+  /*lightbox mobile*/
+}
 }
 
 @media all and (min-width: 1400px) {

@@ -1,0 +1,123 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Josef Olsson</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <meta name="description" content="Josef Olsson: UX / Game Designer">
+  <meta name="author" content="Josef Olsson">
+
+  <link rel="stylesheet" href="CSS/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/gys0ypa.css">
+  <script src="https://kit.fontawesome.com/ce3cddd37f.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+      $('#nav').load('reuseheader.html');
+      $('#footer').load('reusefooter.html');
+    });  
+  </script>
+  <script>
+	function showLightbox() {
+    	document.body.style.overflow = "hidden";
+    }
+
+    function removeLightbox() {
+    	document.body.style.overflow = "auto";
+    }
+</script>
+</head>
+<body>
+  <div id="nav"></div>
+  <div class="center">
+    <div class="sections-container">
+    <div class="section" id="youherdme">
+      <div class="portfolio-background-container"><img class="portfolio-background" src="Images/puffer_header.png" alt="PUFFER SMASH"/></div>
+      <header class="section-header">PUFFER SMASH</header>
+      <div class="section-text">
+        <ul class="portfolio-list">
+          <div class="portfolio-list-left"><li><strong>Genre:</strong> Casual King-of-the-Hill Fighter</li>
+          <li><strong>Team size:</strong> 6</li></div>
+        </ul>
+<!-- -->
+
+<p class="clear-paragraph">
+		<div class="responsibilities-section">
+      <h2>MY ROLE</h2>
+      <ul>
+        <li>Responsible for <strong>Concept Art</strong></li>
+		<li>Responsible for <strong>UI Design</strong></li>
+        <li>Responsible for <strong>2D Mockups</strong></li>
+		<li>Collaborated with the whole group on <strong>Level Design</strong></li>
+      </ul>
+	  <br> A one-week introductory assignment from the start of my Futuregames education. My team was made up of six novice UX / Game Designers, me included. This was before we started putting together prototypes in Unity and Unreal.
+	  </div>
+<!-- -->
+		</p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img1" onclick="showLightbox()">
+  <img src="Images/puffer_mockup.png" alt="puffer smash: stage mockup" id="big-pic"></a>
+		<a href="#back" class="lightbox" id="img1" onclick="removeLightbox()">
+		<span style="background-image: url('Images/puffer_mockup.png')"></span>
+		</a>
+</div>
+<!--  -->
+		<p class="clear-paragraph">
+		<strong>“Puffer Smash”</strong> is a King-of-the-Hill style Fighting game, inspired by the likes of Super Smash Bros and Fly Punch Boom. The goal is to push all rivals out of the aquarium and be the only fish left inside. Your primary means for doing this are swimming around, puffing yourself up, and expelling the water you’ve absorbed. There are environmental hazards, including a curious octopus in the corner, a fake mini volcano in the centre that periodically shoots streams of air towards the surface, and breakable aquarium walls that naturally shrink the play area by reducing the amount of water. You can also collect power ups, dropped into the aquarium from above, to temporarily boost your puffer fish. Unpuffed fish can hide in the environment, like in tall grass or behind a rock.
+		<br><br>
+		After ironing out the basic concept, we split into two groups. My group dealt more with the visual part of the design, while the other further defined the mechanics.
+   <br><br>
+   We reconvened every day to present progress, give each other feedback, and make sure we were still working in the same direction. If there was any disagreement, we put it to a vote.
+<br><br>
+I started by sketching some puffer fish from photographic reference, trying to get a sense of the characters and how much they’d change when puffed up. I posted regular updates in our discord channel for feedback. Over time, the design moved towards a more cartoony aesthetic, to match the tone of the game. There were plans to make a 3d mockup, but the group liked the 2D versions of the fish so much we ended up scrapping it.
+
+<br><br>
+</p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img2" onclick="showLightbox()">
+  <img src="Images/puffer_sketch.png" alt="puffer smash: sketchy puffers" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img2" onclick="removeLightbox()">
+		<span style="background-image: url('Images/puffer_sketch.png')"></span>
+		</a>
+  <a href="#img3" onclick="showLightbox()">
+  <img src="Images/puffer_players.png" alt="puffer smash: player puffers" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img3" onclick="removeLightbox()">
+		<span style="background-image: url('Images/puffer_players.png')"></span>
+		</a>
+</div>
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  I hosted a few collaborative sketching sessions at aggie.io, where we tried to agree on a layout for the aquarium. The last thing I did on the project was draw a mockup version of one of those level sketches, along with a UI and some Players interacting with the environment.
+   <br><br>
+   The worms on the left are power-ups. The bottom row is lives (fish) and score (number). Top right is the timer.
+   <br><br>
+      </p>
+<!-- images -->
+<div class="img-container">
+  <a href="#img1" onclick="showLightbox()">
+  <img src="Images/puffer_mockup.png" alt="puffer smash: stage mockup" id="click-pic"></a>
+</div>
+<!--  -->
+
+	  <p class="clear-paragraph">
+	  Here’s <a href="pdf/Puffer_Smash_GDD.pdf">the full GDD</a>. I didn’t do any of the actual writing and layout of this document, but it should give a sense of the intended mechanics.
+<br><br>
+      </p>
+	  
+<!--  -->
+
+
+
+
+<!-- ------------------------------------------------------------------------------------  -->
+      </div>
+    </div><br><br>
+  <div id="footer"></div>
+</body>
+</html>
