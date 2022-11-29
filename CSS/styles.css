@@ -153,6 +153,7 @@ ul {
 
 .portfolio-img, .img-overlay {
 	/*position: absolute;*/
+	box-sizing: border-box;
 	display: block;
   	height: auto;
   	width: 100%;
@@ -196,8 +197,14 @@ ul {
 
 .portfolio-img:hover {
 	border: 3px solid rgba(255, 0, 0, .0);
+    transition:border-width .1s;
 	filter: brightness(110%); /*brightness(110%);
-	opacity: 0.9;*/
+	opacity: 0.9;
+  	width: 99%;
+	margin: auto;
+    transition:width .1s;
+	border: 3px solid rgba(255, 0, 0, .0);
+    transition:border-width .1s;*/
 }
 
 .img-caption {
