@@ -57,6 +57,8 @@ nav .menu {
 
 .nav-border {
   border-bottom: 1px solid grey;
+  transition:border-width .1s;
+  transition:border-bottom .1s;
 }
 
 .checkbtn {
@@ -509,7 +511,7 @@ a:hover {
 }
 .sections-container-top {
   /*background: #36393F; /*#B4D4E1; */
-  font-size: 120%;
+  font-size: 110%;
   color: #F4F4F2; /*#ffffff; */
   margin: auto;
   max-width: 1000px;
@@ -839,6 +841,8 @@ iframe {
 	/*background: #232529;*/
 	max-width: 550px;
 	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
   padding: 40px;
   padding-top: 22px;
   padding-bottom: 30px;
