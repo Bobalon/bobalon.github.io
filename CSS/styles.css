@@ -119,7 +119,7 @@ ul {
 
 .menu ul li span:hover {
 	border-bottom: 3px solid #F4F4F2; /*#42464D; /*#005f88; */
-  transition:border-bottom .1s;
+  /*transition:border-bottom .1s;*/
 	/* line under header options, thickness and colour*/
 }
 
@@ -183,7 +183,7 @@ ul {
 }
 
 .portfolio-img {
-	object-fit: cover;
+	object-fit: contain;
 }
 
 .portfolio-logo {
