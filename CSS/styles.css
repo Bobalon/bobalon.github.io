@@ -12,15 +12,15 @@
 body {
 	font-family: Lato, proxima-nova, Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	color: #1c1c1c;
-	background: #232529; /*#82BFD8; #D1D6DF;*/
+	color: #f0f6f0; /*#1c1c1c; */
+	background: #222323; /*#232529; /*#82BFD8; #D1D6DF;*/
   font-size: 1.3rem;/*1.2rem;*/
 }
 
 h1, header {
 	font-family: "Caveat Brush", "Lato", Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	color: #ffffff;
+	color: #f0f6f0; /*#ffffff;*/
 }
 
 h2 {
@@ -75,6 +75,7 @@ input[type=checkbox] {
 }
 
 .title {
+	font-family: "Caveat Brush", "Lato", Helvetica, Arial, sans-serif;
 	font-size: 3rem;
 	font-weight: 600;
 }
@@ -270,7 +271,7 @@ ul {
 }
 
 .clear-paragraph {
-  max-width: 1000px;
+  max-width: 800px;
   margin: auto;
   padding-top: 20px;
   clear: both;
@@ -494,24 +495,24 @@ a:hover {
 
 
 .sections-container {
-  background: #36393F; /*#F7F7E9; /* #A1C8CF;*/
-  color: #F4F4F2;
+  background: #2e3037; /*#36393F; /*#F7F7E9; /* #A1C8CF;*/
+  color: #F4F4F2; /*#f0f6f0; /*#F4F4F2;*/
 }
 .sections-container-alltarach {
-  background: #36393F; /*#F7F7E9; */
-  color: #F4F4F2;
+  background: #323130; /*#2e3037; /*#36393F; /*#F7F7E9; */
+  color: #F4F4F2; /*#f0f6f0; /*#F4F4F2;*/
 }
 .sections-container-about {
-  background: #36393F; /*#B4D4E1; */
-  color: #F4F4F2; /*#ffffff; */
+  background: #323130; /*#2e3037; /*#36393F; /*#B4D4E1; */
+  color: #F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
   margin: auto;
-  max-width: 1000px;
+  max-width: 800px;
   /* this is the backdrop and font colour of the about me section */
 }
 .sections-container-top {
   /*background: #36393F; /*#B4D4E1; */
   font-size: 110%;
-  color: #F4F4F2; /*#ffffff; */
+  color: #F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
   margin: auto;
   max-width: 1000px;
 }
