@@ -433,19 +433,45 @@ hr {
   /* email link in the footer colour*/
 }
 
+.textlink {
+  font-size: 120%;
+  margin: 10px;
+  width: 400px;
+  /*padding: 15px;*/
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 2px solid white;
+    background-color: #323130; /*#222323;*/
+}
+.textlink:hover {
+  font-size: 120%;
+  margin: 10px;
+  width: 400px;
+  /*padding: 15px;*/
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 2px solid #CDCECF;
+    background-color: #080816;
+   -webkit-filter: invert(100%) !important;
+}
+
 a {
 	text-decoration: none;
 	/*color: #0085FF;*/
 	font-weight: bold;
 }
 a:link {
-	color: #05C7FF;
+	color: #f0f6f0; /*#05C7FF;*/
 }
 a:visited {
-	color: #05C7FF;/*#709EDC #FFFC01;*/
+	color: #f0f6f0; /*#05C7FF;/*#709EDC #FFFC01;*/
 }
 a:hover {
-	color: #F5FDFF;
+	color: #F9FBF9; /*#F5FDFF;*/
 }
 .footercard {
 	display: block;
@@ -993,7 +1019,7 @@ iframe {
 /*--------------------------------------------------------------*/
 
 .buttonc {
-  background-color: #36393F;
+  background-color: #222323; /*#36393F;*/
   border: none;
   color: white;
   padding: 18px 22px;
@@ -1006,7 +1032,7 @@ iframe {
   cursor: pointer;
 }
 .buttonc {
-  background-color: #36393F;
+  background-color: #323130; /*#36393F;*/
   color: white;
   border: 2px solid #F4F4F2;
 }
@@ -1034,7 +1060,7 @@ iframe {
   cursor: pointer;
 }
 .buttond {
-  background-color: #232529;
+  background-color: #222323; /*#232529;*/
   color: white;
   border: 2px solid #F4F4F2;
 }
