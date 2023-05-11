@@ -496,8 +496,10 @@ a:hover {
 
 
 .sections-container {
-  background: #2e3037; /*#36393F; /*#F7F7E9; /* #A1C8CF;*/
+  background: #323130; /*#2e3037; /*#36393F; /*#F7F7E9; /* #A1C8CF;*/
   color: #F4F4F2; /*#f0f6f0; /*#F4F4F2;*/
+  margin: auto;
+  max-width: 1200px;
 }
 .sections-container-alltarach {
   background: #323130; /*#2e3037; /*#36393F; /*#F7F7E9; */
@@ -515,7 +517,7 @@ a:hover {
   font-size: 110%;
   color: #F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
   margin: auto;
-  max-width: 1000px;
+  max-width: 800px;
 }
 
 .intro {
@@ -625,7 +627,7 @@ a:hover {
 #top-img {
   float: left;
   width: auto;
-  max-width: 380px;
+  max-width: 340px;
   height: auto;
   max-height: 380px;
   overflow: hidden;
@@ -1045,6 +1047,9 @@ iframe {
 }
 .buttonholder {
   margin: auto;
+  /*border: 3px solid green;*/
+  width: 60%;
+  padding: 10px;
 }
 
 /*--------------------------------------------------------------*/
