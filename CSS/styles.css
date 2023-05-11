@@ -866,7 +866,7 @@ iframe {
 }
 
 .responsibilities-section {
-  border: 1px dashed #F4F4F2;
+  border: 1px solid #AFAFA7; /*#C7C7BF; /*#F4F4F2; dashed*/
 	/*background: #232529;*/
 	max-width: 550px;
 	margin: auto;
