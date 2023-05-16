@@ -1230,6 +1230,25 @@ iframe {
   padding: 12px 16px;
   margin: 14px 6px;
 }
+.buttonholder {
+  margin: auto;
+  /*border: 3px solid green;*/
+  width: 40%;
+  padding: 10px;
+}
+.textlink {
+	position: relative;
+	top: 30px;
+  font-size: 120%;
+  margin: 10px;
+  width: 400px;
+  /*padding: 15px;*/
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 2px solid white;
+    background-color: #323130; /*#222323;*/
 }
 }
 
