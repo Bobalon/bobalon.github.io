@@ -77,7 +77,7 @@ input[type=checkbox] {
 .title {
 	font-family: "Caveat Brush", "Lato", Helvetica, Arial, sans-serif;
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 ul {
@@ -1136,7 +1136,7 @@ iframe {
     user-select: none;
   }
   nav {
-  	background: #232529; /*#151617; /*#232529; /*#82BFD8; /**#dedfe3;**/
+  	background: #222323; /*#232529; /*#151617; /*#232529; /*#82BFD8; /**#dedfe3;**/
   }
   .menu ul {
   	display: none;
