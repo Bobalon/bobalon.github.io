@@ -61,6 +61,9 @@ nav .menu {
 .nav-border {
   border-bottom: 1px solid grey;
 }
+.nav-link {
+  font-size: 1.8rem;/*1.2rem;*/
+}
 
 .checkbtn {
 	display: none;
@@ -280,6 +283,7 @@ a:hover.contact {
 	padding-left: 12px;
 	padding-right: 12px;
   font-weight: 600;
+	border-bottom: 3px solid #100F0E; /*#FF8C00;*/
 }
 
 /*----------------------------------------  */
@@ -313,6 +317,7 @@ a:hover.contact2 {
 	padding-left: 6px;
 	padding-right: 6px;
   font-weight: 600;
+	border-bottom: 2px solid #100F0E; /*#FF8C00;*/
 }
 /*----------------------------------------  */
 
@@ -1326,6 +1331,7 @@ iframe {
   padding-right: 25px;
   border: 2px solid white;
     background-color: #323130; /*#222323;*/
+	border-bottom: 1px solid #100F0E; /*#FF8C00;*/
 }
 table.contact {
   margin-left: 10px;
