@@ -11,16 +11,16 @@
 
 body {
 	font-family: Lato, proxima-nova, Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	color: #f0f6f0; /*#1c1c1c; */
-	background: #222323; /*#232529; /*#82BFD8; #D1D6DF;*/
+	font-weight: 400;
+	color: #100F0E; /*#f0f6f0; /*#1c1c1c; */
+	background: #E5E1D8; /*#222323; /*#232529; /*#82BFD8; #D1D6DF;*/
   font-size: 1.3rem;/*1.2rem;*/
 }
 
 h1, header {
 	font-family: "Caveat Brush", "Lato", Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	color: #f0f6f0; /*#ffffff;*/
+	color: #100F0E; /*#f0f6f0; /*#ffffff;*/
 }
 
 h2 {
@@ -33,12 +33,15 @@ h2 {
 strong {
   font-weight: 600;
 }
+b { 
+  font-weight: 700;
+}
 
 nav {
 	position: fixed;
 	top: 0;
 	font-family: "Lato", sans-serif;
-	background: rgba(34, 35, 35, 0.8); /*#232529; /*#151617; /*#232529; /*#82BFD8; */ /* backdrop for the header section*/
+	background: rgba(229, 225, 216, 0.8); /*#232529; /*#151617; /*#232529; /*#82BFD8; */ /* backdrop for the header section*/
 	width: 100%;
 	padding: 10px 0;
 	transition: top 0.5s;
@@ -128,7 +131,7 @@ ul {
 .standard-link {
 	text-decoration: none;
 	border-bottom: 1px solid #FF8C00;
-	color: #FF8C00;
+	color: #100F0E; /*#FF8C00;*/
 }
 
 .center {
@@ -234,10 +237,83 @@ ul {
 	opacity: 1;
 }
 
-/*-------- button container -----------------------*/
+/*-------- contact table -----------------------*/
+table.contact {
+  margin-left: auto;
+  margin-right: auto;
+  /*background: #E5E1D8; /*#*/
+  /*color: #100F0E; /*#*/
+}
+td.contact {
+	vertical-align: middle;
+	display:inline;
+    background-color: #100F0E; /*green;*/
+    color: #E5E1D8; /*#fff;*/
+	padding: 5px;
+}
+a:link.contact {
+	vertical-align: middle;
+	display:inline;
+    background-color: #100F0E; /*green;*/
+    color: #E5E1D8; /*#fff;*/
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+  font-size: 1.6rem;/*1.2rem;*/
+  font-weight: 600;
+}
+a:visited.contact {
+	vertical-align: middle;
+	display:inline;
+    background-color: #100F0E; /*green;*/
+    color: #E5E1D8; /*#fff;*/
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+a:hover.contact {
+	vertical-align: middle;
+	display:inline;
+    background-color: #E5E1D8; /*#fff;*/
+    color: #100F0E; /*green;*/
+	padding: 8px;
+	padding-left: 12px;
+	padding-right: 12px;
+  font-weight: 600;
+}
 
+/*----------------------------------------  */
 
-
+a:link.contact2 {
+	vertical-align: middle;
+	display:inline;
+    background-color: #100F0E; /*green;*/
+    color: #E5E1D8; /*#fff;*/
+	padding: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+  font-size: 1.6rem;/*1.2rem;*/
+  font-weight: 600;
+}
+a:visited.contact2 {
+	vertical-align: middle;
+	display:inline;
+    background-color: #100F0E; /*green;*/
+    color: #E5E1D8; /*#fff;*/
+	padding: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+a:hover.contact2 {
+	vertical-align: middle;
+	display:inline;
+    background-color: #E5E1D8; /*#fff;*/
+    color: #100F0E; /*green;*/
+	padding: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+  font-weight: 600;
+}
 /*----------------------------------------  */
 
 .portfolio-row {
@@ -429,7 +505,7 @@ hr {
 }
 
 #email-link {
-  color: #DEDED8; /*#F4F4F2; /*#1c1c1c; /*inherit; */
+  color: #100F0E; /*#DEDED8; /*#F4F4F2; /*#1c1c1c; /*inherit; */
   /* email link in the footer colour*/
 }
 
@@ -465,13 +541,13 @@ a {
 	font-weight: bold;
 }
 a:link {
-	color: #f0f6f0; /*#05C7FF;*/
+	color: #100F0E; /*#f0f6f0; /*#05C7FF;*/
 }
 a:visited {
-	color: #f0f6f0; /*#05C7FF;/*#709EDC #FFFC01;*/
+	color: #100F0E; /*#f0f6f0; /*#05C7FF;/*#709EDC #FFFC01;*/
 }
 a:hover {
-	color: #F9FBF9; /*#F5FDFF;*/
+	color: #100F0E; /*#F9FBF9; /*#F5FDFF;*/
 }
 .footercard {
 	display: block;
@@ -522,8 +598,8 @@ a:hover {
 
 
 .sections-container {
-  background: #323130; /*#2e3037; /*#36393F; /*#F7F7E9; /* #A1C8CF;*/
-  color: #F4F4F2; /*#f0f6f0; /*#F4F4F2;*/
+  background: #E5E1D8; /*#323130; /*#2e3037; /*#36393F; /*#F7F7E9; /* #A1C8CF;*/
+  color: #100F0E; /*#F4F4F2; /*#f0f6f0; /*#F4F4F2;*/
   margin: auto;
   max-width: 1200px;
 }
@@ -532,8 +608,8 @@ a:hover {
   color: #F4F4F2; /*#f0f6f0; /*#F4F4F2;*/
 }
 .sections-container-about {
-  background: #323130; /*#2e3037; /*#36393F; /*#B4D4E1; */
-  color: #F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
+  background: #E5E1D8; /*#323130; /*#2e3037; /*#36393F; /*#B4D4E1; */
+  color: #100F0E; /*##F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
   margin: auto;
   max-width: 800px;
   /* this is the backdrop and font colour of the about me section */
@@ -541,7 +617,7 @@ a:hover {
 .sections-container-top {
   /*background: #36393F; /*#B4D4E1; */
   font-size: 110%;
-  color: #F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
+  color: #100F0E; /*#F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
   margin: auto;
   max-width: 800px;
 }
@@ -642,7 +718,7 @@ a:hover {
 }
 
 #bio-img {
-  float: right;
+  float: left;
   width: auto;
   max-width: 300px;
   height: auto;
@@ -1249,6 +1325,12 @@ iframe {
   padding-right: 25px;
   border: 2px solid white;
     background-color: #323130; /*#222323;*/
+}
+table.contact {
+  margin-left: 10px;
+  margin-right: auto;
+  /*background: #E5E1D8; /*#*/
+  /*color: #100F0E; /*#*/
 }
 }
 
