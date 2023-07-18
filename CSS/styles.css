@@ -403,6 +403,10 @@ a:hover.contact2 {
   max-height: 600px;
   padding: 20px 30px;
 }
+#icon {
+  max-width: 50px;
+  max-height: 50px;
+}
 
 #about {
 	background-color: #203662; /*#36393F; /*#5987AB; /**#B4D4E1;**/
