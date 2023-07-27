@@ -129,6 +129,7 @@ ul {
 	border-bottom: 4px solid #100F0E; /*#F4F4F2; /*#42464D; /*#005f88; */
   /*transition:border-bottom .1s;*/
 	/* line under header options, thickness and colour*/
+    transition:border-width .1s;
 }
 
 .standard-link {
@@ -284,6 +285,7 @@ a:hover.contact {
 	padding-right: 12px;
   font-weight: 600;
 	border-bottom: 4px solid #100F0E; /*#FF8C00;*/
+    transition:border-width .1s, background-color .1s, color .1s;
 }
 
 /*----------------------------------------  */
@@ -318,6 +320,7 @@ a:hover.contact2 {
 	padding-right: 6px;
   font-weight: 600;
 	border-bottom: 2px solid #100F0E; /*#FF8C00;*/
+    transition:border-width .1s, background-color .1s, color .1s;
 }
 /*----------------------------------------  */
 
@@ -378,9 +381,11 @@ a:hover.contact2 {
 
 #click-pic:hover {
   filter:brightness(110%);
+    transition:filter .1s;
 }
 #big-pic:hover {
   filter:brightness(110%);
+    transition:filter .1s;
 }
 
 .pic-text {
