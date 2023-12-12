@@ -1259,6 +1259,11 @@ iframe {
 .about-me-para {
   margin: 20px 30px;
 }
+.about-me-para2 {
+  margin: 20px 30px;
+  font-size: 140%;
+  font-weight: 600;
+}
 .greeting {
 	font-size: 280%;
 	font-weight: 300;
