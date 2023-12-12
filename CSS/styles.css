@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300;400;700&display=swap');
 
 * {
 	margin: 0;
@@ -42,7 +43,7 @@ nav {
 	position: fixed;
 	top: 0;
 	font-family: "Lato", sans-serif;
-	background: rgba(229, 225, 216, 0.8); /*#232529; /*#151617; /*#232529; /*#82BFD8; */ /* backdrop for the header section*/
+	background: rgba(229, 225, 216, 0.0); /*#232529; /*#151617; /*#232529; /*#82BFD8; */ /* backdrop for the header section*/
 	width: 100%;
 	padding: 10px 0;
 	transition: top 0.5s;
@@ -123,6 +124,18 @@ ul {
 	margin: auto;
   width: 50%;
 }
+
+.navigator {
+	background: #E5E1D8;
+	padding: 25px 35px 25px 10px;
+	border-radius: 15px 50px 50px 15px;
+	border-style: solid;
+	border-color: #100F0E;
+  border-width: 2px;
+  box-shadow: 5px 5px #100F0E;
+}
+
+
 /*---------------BLOCKQUOTE----------------------------------------------*/
 
 /* center the blockquote in the page */
@@ -359,6 +372,7 @@ td.contact {
 	padding: 5px;
 }
 a:link.contact {
+  border-radius: 3px;
 	vertical-align: middle;
 	display:inline;
     background-color: #100F0E; /*green;*/
@@ -370,6 +384,7 @@ a:link.contact {
   font-weight: 600;
 }
 a:visited.contact {
+  border-radius: 3px;
 	vertical-align: middle;
 	display:inline;
     background-color: #100F0E; /*green;*/
@@ -379,6 +394,7 @@ a:visited.contact {
 	padding-right: 12px;
 }
 a:hover.contact {
+  border-radius: 1px;
 	vertical-align: middle;
 	display:inline;
     background-color: #E5E1D8; /*#fff;*/
@@ -394,6 +410,7 @@ a:hover.contact {
 /*----------------------------------------  */
 
 a:link.contact2 {
+  border-radius: 3px;
 	vertical-align: middle;
 	display:inline;
     background-color: #100F0E; /*green;*/
@@ -406,6 +423,7 @@ a:link.contact2 {
 	border-bottom: 3px solid #100F0E; /*#FF8C00;*/
 }
 a:visited.contact2 {
+  border-radius: 3px;
 	vertical-align: middle;
 	display:inline;
     background-color: #100F0E; /*green;*/
@@ -416,6 +434,7 @@ a:visited.contact2 {
 	border-bottom: 3px solid #100F0E; /*#FF8C00;*/
 }
 a:hover.contact2 {
+  border-radius: 1px;
 	vertical-align: middle;
 	display:inline;
     background-color: #E5E1D8; /*#fff;*/
@@ -433,6 +452,7 @@ a:hover.contact2 {
 /*----------------------------------------  */
 
 a:link.contact3 {
+  border-radius: 3px;
 	vertical-align: top;
 	display:inline;
     background-color: #252B29; /*#100F0E; /*green;*/
@@ -445,6 +465,7 @@ a:link.contact3 {
 	border-bottom: 2px solid #252B29; /*#100F0E; /*#FF8C00;*/
 }
 a:visited.contact3 {
+  border-radius: 3px;
 	vertical-align: top;
 	display:inline;
     background-color: #252B29; /*#100F0E; /*green;*/
@@ -455,6 +476,7 @@ a:visited.contact3 {
 	border-bottom: 2px solid #252B29; /*#100F0E; /*#FF8C00;*/
 }
 a:hover.contact3 {
+  border-radius: 1px;
 	vertical-align: top;
 	display:inline;
     background-color: #E5E1D8; /*#fff;*/
@@ -769,11 +791,16 @@ a:hover {
   color: #F4F4F2; /*#f0f6f0; /*#F4F4F2;*/
 }
 .sections-container-about {
-  background: #E5E1D8; /*#323130; /*#2e3037; /*#36393F; /*#B4D4E1; */
+  background: #E3C789; /*#E5E1D8; /*#323130; /*#2e3037; /*#36393F; /*#B4D4E1; */
   color: #100F0E; /*##F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
   margin: auto;
   max-width: 800px;
-  /* this is the backdrop and font colour of the about me section */
+	padding: 30px 25px 85px 25px;
+	border-radius: 50px 50px 5px 5px;
+	border-style: solid;
+	border-color: #100F0E;
+  border-width: 2px;
+  box-shadow: 5px 5px #100F0E;
 }
 .sections-container-top {
   /*background: #36393F; /*#B4D4E1; */
@@ -870,6 +897,7 @@ a:hover {
 
 .portfolio-background {
   width: 100%;
+	border-radius: 50px 50px 0px 0px;
 }
 
 .nav-break {
@@ -885,8 +913,27 @@ a:hover {
   height: auto;
   max-height: 300px;
   overflow: hidden;
-  margin: 5px 10px;
+  margin: 5px 30px 0px 40px;
+	border-radius: 50px 5px 5px 50px;
+	border-style: solid;
+	border-color: #100F0E;
+  border-width: 2px;
+  box-shadow: 5px 5px #494B62;
 }
+
+/*----------------------------------------  */
+table.about {
+	background: #E5E1D8;
+	padding: 25px 35px 25px 20px;
+	border-radius: 5px 50px 50px 5px;
+	border-style: solid;
+	border-color: #100F0E;
+  border-width: 2px;
+  box-shadow: 5px 5px #494B62;
+  max-height: 300px;
+  min-height: 300px;
+}
+/*----------------------------------------  */
 #top-img {
   float: left;
   width: auto;
@@ -1430,15 +1477,36 @@ iframe {
     float: none;
     width: 100%;
   }
+  
   #bio-img {
-  float: right;
+  float: left;
   width: auto;
-  max-width: 200px;
+  max-width: 300px;
   height: auto;
   max-height: 300px;
   overflow: hidden;
-  margin: 5px 5px;
-  }
+  margin: 5px 80px 20px 20px;
+	border-radius: 5px 50px 50px 5px;
+	border-style: solid;
+	border-color: #100F0E;
+  border-width: 2px;
+  box-shadow: 5px 5px #494B62;
+}
+
+/*----------------------------------------  */
+table.about {
+	margin: 20px 5px 5px 20px;
+	background: #E5E1D8;
+	padding: 25px 35px 25px 20px;
+	border-radius: 5px 50px 50px 5px;
+	border-style: solid;
+	border-color: #100F0E;
+  border-width: 2px;
+  box-shadow: 5px 5px #494B62;
+  max-height: 300px;
+  min-height: 300px;
+}
+/*----------------------------------------  */
   .portfolio-list {
     margin: 10px 0px;
   }
