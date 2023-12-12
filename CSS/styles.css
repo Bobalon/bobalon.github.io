@@ -980,7 +980,7 @@ table.about {
   width: auto;
   max-width: 340px;
   height: auto;
-  max-height: 380px;
+  max-height: 340px;
   overflow: hidden;
   margin: 25px 50px;
 }
@@ -1016,6 +1016,7 @@ table.about {
   filter: brightness(100%); 
     transition: .1s;
 }
+
 
 form {
   display: none;
