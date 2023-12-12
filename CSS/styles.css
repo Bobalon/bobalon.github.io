@@ -86,6 +86,9 @@ input[type=checkbox] {
 	font-family: "Caveat Brush", "Lato", Helvetica, Arial, sans-serif;
 	font-size: 3rem;
 	font-weight: 500;
+	background: #E5E1D8;
+	padding: 5px 35px 15px 5px;
+	border-radius: 50px;
 }
 
 ul {
@@ -359,6 +362,20 @@ a:hover.contactquote {
 
 /*-------- contact table -----------------------*/
 table.contact {
+	margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /*background: #E5E1D8; /*#*/
+  /*color: #100F0E; /*#*/
+	background: #E5E1D8;
+	padding: 25px 45px 25px 35px;
+	border-radius: 500px;
+	border-style: solid;
+	border-color: #100F0E;
+  border-width: 2px;
+  box-shadow: 5px 5px #100F0E;
+}
+table.contactabout {
   margin-left: auto;
   margin-right: auto;
   /*background: #E5E1D8; /*#*/
@@ -943,6 +960,38 @@ table.about {
   overflow: hidden;
   margin: 25px 50px;
 }
+.topimage {
+  float: left;
+  width: auto;
+  max-width: 340px;
+  height: auto;
+  max-height: 380px;
+  overflow: hidden;
+  margin: 25px 50px;
+	padding: 0px;
+	border-radius: 550px;
+	border-style: solid;
+	border-color: #E5E1D8; /*#100F0E;*/
+  border-width: 10px 5px 5px 10px;
+  box-shadow: 0px 0px 0px 0px #E5E1D8; /*#100F0E;*/
+}
+.topimage:hover {
+  float: left;
+  width: auto;
+  max-width: 340px;
+  height: auto;
+  max-height: 380px;
+  overflow: hidden;
+  margin: 25px 50px;
+	padding: 0px;
+	border-radius: 550px;
+	border-style: solid;
+	border-color: #E5E1D8; /*#100F0E;*/
+  border-width: 2px;
+  box-shadow: 5px 5px #100F0E; /*#307EAC; /*#EDCC81; /*#100F0E;*/
+  filter: brightness(100%); 
+    transition: .1s;
+}
 
 form {
   display: none;
@@ -1200,6 +1249,9 @@ iframe {
 	font-size: 280%;
 	font-weight: 300;
 	font-family: "Caveat Brush", "Lato", Helvetica, Arial, sans-serif;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .skills {
@@ -1399,13 +1451,11 @@ iframe {
   padding: 20px 0px;
 }
 #top-img {
-  float: left;
-  width: auto;
-  max-width: 220px;
-  height: auto;
-  max-height: 220px;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
   overflow: hidden;
-  margin: 15px 10px;
 }
   .checkbtn {
   	/*position: absolute;
@@ -1558,8 +1608,9 @@ table.about {
 	border-bottom: 1px solid #100F0E; /*#FF8C00;*/
 }
 table.contact {
-  margin-left: 10px;
-  margin-right: auto;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
   /*background: #E5E1D8; /*#*/
   /*color: #100F0E; /*#*/
 }
@@ -1572,6 +1623,10 @@ table.contact {
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+.toptext {
+	max-width: 80%;
+	margin: auto;
 }
 }
 
