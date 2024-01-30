@@ -138,6 +138,11 @@ ul {
   box-shadow: 5px 5px #100F0E;
 }
 
+.downpointer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /*---------------BLOCKQUOTE----------------------------------------------*/
 
@@ -289,6 +294,7 @@ a:hover.contactquote {
   	top: 0;
   	left: 0;
   	margin-bottom: 10px;
+	border: 2px solid rgba(255, 0, 0, .0);
 }
 
 .logo-img {
@@ -326,9 +332,12 @@ a:hover.contactquote {
 }
 
 .portfolio-img:hover {
+	border: 0px solid rgba(255, 0, 0, .0);
+    transition: all 0.05s ease-in;
+	transform: translateY(-6px) rotate(1deg);
+	filter: brightness(110%); /*brightness(110%);
 	border: 3px solid rgba(255, 0, 0, .0);
     transition:border-width .1s;
-	filter: brightness(110%); /*brightness(110%);
 	opacity: 0.9;
   	width: 99%;
 	margin: auto;
@@ -593,6 +602,7 @@ a:hover.contact3 {
 #click-pic:hover {
   filter:brightness(110%);
     transition:filter .1s;
+  transform: scale(0.98, 0.98);
 }
 #big-pic:hover {
   filter:brightness(110%);
@@ -988,34 +998,23 @@ table.about {
 .topimage {
   float: left;
   width: auto;
-  max-width: 340px;
+  max-width: 200px;
   height: auto;
-  max-height: 380px;
-  overflow: hidden;
-  margin: 25px 50px;
-	padding: 0px;
-	border-radius: 550px;
-	border-style: solid;
-	border-color: #E5E1D8; /*#100F0E;*/
-  border-width: 10px 8px 8px 10px;
-  box-shadow: 0px 0px 0px 0px #E5E1D8; /*#100F0E;*/
+  max-height: 240px;
+  /*border: solid #100F0E;
+  border-width: 5px;*/
+  border-top-left-radius: 200px 20px;
+  border-top-right-radius: 20px 200px;
+  border-bottom-left-radius: 20px 200px;
+  border-bottom-right-radius: 200px 20px;
+  transform: scale(1, 1);
+  transition: all 0.01s ease-in;
+  filter: brightness(95%);
+  /*box-shadow: 5px 5px #494B62;*/
 }
 .topimage:hover {
-  float: left;
-  width: auto;
-  max-width: 340px;
-  height: auto;
-  max-height: 380px;
-  overflow: hidden;
-  margin: 25px 50px;
-	padding: 0px;
-	border-radius: 550px;
-	border-style: solid;
-	border-color: #E5E1D8; /*#100F0E;*/
-  border-width: 2px;
-  box-shadow: 5px 5px #100F0E; /*#307EAC; /*#EDCC81; /*#100F0E;*/
-  filter: brightness(100%); 
-    transition: .1s;
+  transform: translateY(-2px) scale(0.98, 0.98);
+  filter: brightness(100%);
 }
 
 
