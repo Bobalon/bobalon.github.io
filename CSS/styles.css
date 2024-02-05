@@ -1236,7 +1236,7 @@ li.active>#contact-link {
 
 .video-container {
     position: relative;
-    padding-bottom: 40%;
+    padding-bottom: 42%;
     margin: 0 auto;
     text-align: center;
     max-width: 60%;
@@ -1681,6 +1681,13 @@ table.contact {
 .toptext {
 	max-width: 80%;
 	margin: auto;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 62%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%;
 }
 }
 
