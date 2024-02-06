@@ -1046,8 +1046,6 @@ table.about {
   max-width: 200px;
   height: auto;
   max-height: 240px;
-  /*border: solid #100F0E;
-  border-width: 5px;*/
   border-top-left-radius: 200px 20px;
   border-top-right-radius: 20px 200px;
   border-bottom-left-radius: 20px 200px;
@@ -1056,6 +1054,8 @@ table.about {
   transition: all 0.01s ease-in;
   filter: brightness(100%);
   /*box-shadow: 5px 5px #494B62;*/
+  /*border: solid #100F0E;
+  border-width: 5px;*/
 }
 .topimage:hover {
   transform: translateY(-2px) scale(0.98, 0.98);
@@ -1495,7 +1495,7 @@ iframe {
   	width: 100%;
   }
  #wide-pic {
-	 max-width: 420px;
+	 max-width: 380px;
 	 max-height: 360px;
 	 padding: 20px 0px;
  }
