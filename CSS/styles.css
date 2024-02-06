@@ -1497,7 +1497,7 @@ iframe {
  #wide-pic {
 	 max-width: 400px;
 	 max-height: 380px;
-	 padding: 10px 0px;
+	 padding: 20px 0px;
  }
  #big-pic {
   max-width: 300px;
@@ -1706,11 +1706,11 @@ table.contact {
     width: 60%;
   }
 }
-@media all and (min-width: 600px) {
+@media all and (max-width: 600px) {
  #wide-pic {
-	 max-width: 320px;
-	 max-height: 360px;
-	 padding: 0px 0px;
+	 max-width: 300px;
+	 max-height: 300px;
+	 padding: 20px 0px;
  }
 }
 
