@@ -285,6 +285,83 @@ a:hover.contactquote {
 	border-bottom: 2px solid #1E7C5E; /**/
 }
 
+/*-------------BLOCKQUOTE TOP----------*/
+
+/* Blockquote main style */
+.blockquote-top {
+    position: relative;
+    font-family: Lato, sans-serif;
+    max-width: 420px;
+    margin: 120px auto;
+    align-self: center;
+}
+
+/* Blockquote header */
+.blockquote-top h1 {
+    font-family: Lato, sans-serif;
+    position: relative; /* for pseudos */
+    color: #1d2926; /*e74848;*/
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    border: 2px solid #fff;
+    border: solid 2px;
+    border-radius:20px;
+    padding: 25px;
+}
+
+/* Blockquote right double quotes */
+.blockquote-top h1:after {
+    content:"";
+    position: absolute;
+    border: 2px solid #1d2926; /*e74848;*/
+    border-radius: 0 50px 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -62px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3; 
+}
+
+.blockquote-top h1:before {
+    content:"";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #E5E1D8;
+    bottom: -3px;
+    left: 50px;
+    z-index: 2;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote-top h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+   }
+}
+/* Blockquote subheader */
+.blockquote-top h4 {
+    position: relative;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left:150px;
+    padding-left:12px;
+}
+
+ 
+.blockquote-top h4:first-letter {
+  margin-left:-12px;
+}
+
 /*--------------------------------------------------------------------------------------------------*/
 /*.menu ul li.active>a {*/
 	/*color: #000000;
