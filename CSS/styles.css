@@ -717,6 +717,48 @@ a:hover.contact3 {
 }
 /*----------------------------------------  */
 
+a:link.contact3b {
+  border-radius: 3px;
+	vertical-align: top;
+	display:inline;
+    background-color: #252B29; /*#100F0E; /*green;*/
+    color: #E3C789;/*#E5E1D8; /*#fff;*/
+	padding: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+  font-size: 1.rem;/*1.2rem;*/
+  font-weight: 600;
+	border-bottom: 2px solid #252B29; /*#100F0E; /*#FF8C00;*/
+}
+a:visited.contact3b {
+  border-radius: 3px;
+	vertical-align: top;
+	display:inline;
+    background-color: #252B29; /*#100F0E; /*green;*/
+    color: #E3C789;/*#E5E1D8; /*#fff;*/
+	padding: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-bottom: 2px solid #252B29; /*#100F0E; /*#FF8C00;*/
+}
+a:hover.contact3b {
+  border-radius: 1px;
+	vertical-align: top;
+	display:inline;
+    background-color: #E3C789;/*#E5E1D8; /*#fff;*/
+    color: #100F0E; /*green;*/
+	padding: 0px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+  font-weight: 600;
+	border-bottom: 2px solid #252B29; /*#100F0E; /*#FF8C00;*/
+	/*box-shadow: 5px 5px;*/
+    transition:border-width .1s, background-color .1s, color .1s;
+}
+/*----------------------------------------  */
+
 .portfolio-row {
   display: flex;
 }
