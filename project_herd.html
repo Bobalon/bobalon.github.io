@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Josef Olsson</title>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <meta name="description" content="Josef Olsson: UX / Game Designer">
+  <meta name="author" content="Josef Olsson">
+
+  <link rel="stylesheet" href="CSS/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/gys0ypa.css">
+  <script src="https://kit.fontawesome.com/ce3cddd37f.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+      $('#nav').load('reuseheader.html');
+      $('#footer').load('reusefooter.html');
+    });  
+  </script>
+  <script>
+	function showLightbox() {
+    	document.body.style.overflow = "hidden";
+    }
+
+    function removeLightbox() {
+    	document.body.style.overflow = "auto";
+    }
+</script>
+</head>
+<body>
+  <div id="nav"></div>
+  <div class="center">
+    <div class="sections-container">
+        <div class="section" id="youherdme"></div>
+      <div class="portfolio-background-container"><img class="portfolio-background" src="Images/youherd_header.png" alt="YOU HERD ME"/></div><br>
+      <header class="section-header"></header>
+      <div class="section-text">
+        <ul class="portfolio-list">
+          <div class="portfolio-list-top"><li><strong>Genre:</strong> Co-op Puzzle Platformer</li>
+          <li><strong>Team size:</strong> 6</li></div>
+        </ul>
+<!-- -->
+
+<p class="clear-paragraph">
+<!-- -->
+		<div class="video-container"><iframe src="https://www.youtube.com/embed/z2XbpAo627I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		</p><br>
+		<p class="clear-paragraph">
+		<strong>“You Herd Me”</strong> is a top-down sheep herding game. Your goal is to guide as many sheep as possible to the end of the level, while activating bridges and preventing wolves from eating them. <!--The two players control distinct characters - the shepherd and his dog. The dog is faster and can bark to repel sheep from a greater distance. The shepherd can repel wolves with a torch and beckon sheep towards him with a bell - but never both at the same time. There’s some light platforming involved.-->
+		Two players cooperate and control distinct characters.
+		<br><br>
+		A four week long Futuregames project. My team had two Project Managers, two Programmers, and two Designers. The game was required to be 3D, to be local co-op, and to have puzzles.
+<br><br>Here's my summary of the controls and gameplay loop:
+<br><br>
+</p>
+<!-- images --><br>
+<div class="img-container">
+  <a href="#img1" onclick="showLightbox()">
+  <img src="Images/youherd_controls.png" alt="you herd me: controls" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img1" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_controls.png')"></span>
+		</a>
+  <a href="#img2" onclick="showLightbox()">
+  <img src="Images/youherd_play.png" alt="you herd me: gameplay instruction" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img2" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_play.png')"></span>
+		</a>
+</div><br>
+<!--  -->
+
+   <p class="clear-paragraph">
+   I produced 13 rough poster sketches, followed by an A2 version of the winning concept.
+<br><br>
+      </p>
+	  
+<!-- images --><br>
+<div class="img-container">
+  <a href="#img24" onclick="showLightbox()">
+  <img src="Images/youherd_poster1.png" alt="you herd me: poster" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img24" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_poster1.png')"></span>
+		</a>
+  <a href="#img25" onclick="showLightbox()">
+  <img src="Images/youherd_poster2.png" alt="you herd me: poster" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img25" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_poster2.png')"></span>
+		</a>
+  <a href="#img26" onclick="showLightbox()">
+  <img src="Images/youherd_poster3.png" alt="you herd me: poster" id="click-pic"></a>
+		<a href="#back" class="lightbox" id="img26" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_poster3.png')"></span>
+		</a>
+</div><br>
+
+<!--  -->
+	  
+	  <p class="clear-paragraph">
+Since the poster was finished and sent for printing in the first few days, the sheep are seen running off the edge of the map - something that was still present in the early design. This was abandoned as we started prototyping and testing, since allowing the sheep to run off the level made the game feel unfair.
+<br><br>
+I reused one of my old poster concepts for the pause menu - adding some buttons on the body of the sheep.
+<br><br>
+      </p>
+
+<!-- images --><br>
+<div class="img-container">
+  <a href="#img29" onclick="showLightbox()">
+  <img src="Images/youherd_pause.gif" alt="you herd me: pause menu" id="big-pic"></a>
+		<a href="#back" class="lightbox" id="img29" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_pause.gif')"></span>
+		</a>
+
+</div><br>
+<!--  -->
+
+	  <p class="clear-paragraph">
+At the end of the level you’re awarded between 1-3 apples depending on the number of sheep you’ve successfully herded. The animation for apples popping in is 3 frames per apple - no apple, big apple, smaller final apple.
+<br><br>
+      </p>
+<!-- images --><br>
+<div class="img-container">
+  <a href="#img22" onclick="showLightbox()">
+  <img src="Images/youherd_levelcomplete.gif" alt="you herd me: level complete" id="big-pic"></a>
+		<a href="#back" class="lightbox" id="img22" onclick="removeLightbox()">
+		<span style="background-image: url('Images/youherd_levelcomplete.gif')"></span>
+		</a>
+</div><br>
+
+<!--  -->
+<br><br><br><br><br>
+
+
+
+<!-- ------------------------------------------------------------------------------------  -->
+      </div>
+    </div><br><br>
+  <div id="footer"></div>
+</body>
+</html>
