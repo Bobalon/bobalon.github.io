@@ -1244,9 +1244,9 @@ table.about {
 #top-img {
   float: left;
   width: auto;
-  max-width: 340px;
+  max-width: 360px;
   height: auto;
-  max-height: 340px;
+  max-height: 360px;
   overflow: hidden;
   margin: 25px 50px;
 }
@@ -1270,7 +1270,8 @@ table.about {
 }
 .topimage:hover {
   transform: translateY(-2px) scale(0.98, 0.98);
-  filter: brightness(80%);
+  filter: brightness(96%);
+  /*filter: brightness(80%);*/
 }
 
 
