@@ -591,8 +591,8 @@ table.contact {
   /*background: #E5E1D8; /*#*/
   /*color: #100F0E; /*#*/
 	background: #E5E1D8;
-	padding: 25px 55px 25px 45px;
-	border-radius: 500px;
+	padding: 25px 45px 25px 45px;
+	border-radius: 60px;
 	border-style: solid;
 	border-color: #100F0E;
   border-width: 2px;
@@ -859,6 +859,19 @@ a:hover.contact3b {
     transition:filter .1s;
   transform: scale(0.98, 0.98);
 }
+
+#click-pic2 {
+  max-width: 800px;
+  max-height: 800px;
+  padding: 20px 30px;
+}
+
+#click-pic2:hover {
+  filter:brightness(110%);
+    transition:filter .1s;
+  transform: scale(0.98, 0.98);
+}
+
 #big-pic:hover {
   filter:brightness(110%);
     transition:filter .1s;
@@ -875,12 +888,12 @@ a:hover.contact3b {
   padding: 20px 30px;
 }
 #wide-pic {
-  max-width: 800px;
-  max-height: 400px;
+  max-width: 700px;
+  max-height: 800px;
   padding: 20px 30px;
 }
 #high-pic {
-  max-width: 650px;
+  max-width: 600px;
   max-height: 600px;
   padding: 20px 30px;
 }
@@ -1109,12 +1122,27 @@ a:hover {
   border-width: 2px;
   box-shadow: 5px 5px #100F0E;
 }
+
 .sections-container-top {
   /*background: #36393F; /*#B4D4E1; */
   font-size: 110%;
   color: #100F0E; /*#F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
   margin: auto;
   max-width: 800px;
+}
+
+.sections-container-top2 {
+  background: #E3C789; /*#E5E1D8; /*#323130; /*#2e3037; /*#36393F; /*#B4D4E1; */
+  color: #100F0E; /*##F4F4F2; /*#f0f6f0; /*#F4F4F2; /*#ffffff; */
+  margin: auto;
+  margin-top: 150px;
+  max-width: 800px;
+	padding: 30px 25px 85px 25px;
+	border-radius: 50px 50px 5px 5px;
+	border-style: solid;
+	border-color: #100F0E;
+  border-width: 2px;
+  box-shadow: 5px 5px #100F0E;
 }
 
 .intro {
@@ -1517,10 +1545,14 @@ iframe {
   margin: 20px 30px;
 }
 .about-me-para2 {
-  margin: 20px 30px;
+  margin: 20px 60px;
   font-size: 140%;
   font-weight: 600;
 }
+.about-me-para3 {
+  margin: 20px 60px;
+}
+
 .greeting {
 	font-size: 280%;
 	font-weight: 300;
@@ -1722,6 +1754,11 @@ iframe {
   padding: 20px 0px;
 }
 #click-pic {
+  max-width: 300px;
+  max-height: 350px;
+  padding: 20px 0px;
+}
+#click-pic2 {
   max-width: 300px;
   max-height: 350px;
   padding: 20px 0px;
