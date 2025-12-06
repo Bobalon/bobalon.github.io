@@ -1749,17 +1749,17 @@ iframe {
   padding: 20px 0px;
  }
  #high-pic {
-  max-width: 300px;
+  max-width: 400px;
   max-height: 600px;
   padding: 20px 0px;
 }
 #click-pic {
-  max-width: 300px;
+  max-width: 400px;
   max-height: 350px;
   padding: 20px 0px;
 }
 #click-pic2 {
-  max-width: 300px;
+  max-width: 400px;
   max-height: 350px;
   padding: 20px 0px;
 }
@@ -1957,10 +1957,13 @@ table.contact {
 }
 @media all and (max-width: 600px) {
  #wide-pic {
-	 max-width: 300px;
+	 max-width: 450px;
 	 max-height: 300px;
 	 padding: 20px 0px;
  }
+.about-me-para3 {
+  margin: 20px 30px;
+}
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
